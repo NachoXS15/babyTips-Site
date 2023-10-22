@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
 }
 
+:root{
+    --title: #50586f;
+    --bg-1: #378dfc;
+    --bg-2: #dae3f2;
+}
+
 #banner{
     width: 100%;
     height: 600px;
@@ -19,6 +25,17 @@ h1, h2, h3, h4, h5, h6{
 #overlay{
     width: 100%;
     height: 100%;
-    background-color: rgba(55, 141, 252, 0.3);
-    
+    background-color: rgba(55, 141, 252, 0.3);   
+}
+
+.title-color{
+    color: var(--title)
+}
+
+.bg1{
+    background-color: var(--bg-1);
+}
+
+.bg-2{
+    background-color: var(--bg-2);
 }

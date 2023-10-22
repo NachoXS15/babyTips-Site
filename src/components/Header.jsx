@@ -8,7 +8,7 @@ export default function Header() {
         setHeaderOpen(true);
     };
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg2">
             <div class="container">
                 <div>
                     <img src={BabyTipsLogo} width={80} />
