@@ -8,14 +8,14 @@ export default function Header() {
         setHeaderOpen(true);
     };
     return (
-        <nav class="navbar navbar-expand-lg bg2">
-            <div class="container">
+        <nav className="navbar navbar-expand-lg bg2">
+            <div className="container">
                 <div>
                     <img src={BabyTipsLogo} width={80} />
                     <h3 className="d-inline">Baby Tips</h3>
                 </div>
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02"
@@ -23,26 +23,26 @@ export default function Header() {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
                             <a
-                                class="nav-link"
+                                className="nav-link"
                                 
                                 href="#"
                             >
                                 Home
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
                                 Link
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">
                                 Disabled
                             </a>
                         </li>

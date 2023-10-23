@@ -12,7 +12,7 @@ export default function Footer() {
     //         <li className='list-item' style={{ listStyle: 'none', fontSize: '1.3em'}}><a href="#" style={{textDecoration: 'none'}}>@baby.tipsfb</a></li>
     //         <li className='list-item' style={{ listStyle: 'none', fontSize: '1.3em'}}><a href="#" style={{textDecoration: 'none'}}>conectandoaprendizaje@gmail.com</a></li>
     //       </ul>
-    //       <div className='col-lg-5'>
+    //       <div className='colgi-lg-5'>
     //         <h2>Información</h2>
     //         <p style={{fontSize: '1.3em'}}>BabyTips es una pagina dedicada a otorgar consejos para poder alimentar bebes ahre</p>
     //       </div>  
@@ -27,9 +27,9 @@ export default function Footer() {
       <div className='container text-center text-md-start '>
         <div className='row text-center text-md-start'>
           <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mt-3'>
-            <h5 className='text-uppercase mb-4 font-weight-bold text-primary'>Dejanos ayudarte</h5>
+            <h5 className='text-uppercase mb-4 font-weight-bold text-primary'>Nostros</h5>
             <hr className='mb-4' />
-            <p className='text-dark'>Baby Tips es una pagina dedicada </p>
+            <p className='text-dark'>Baby Tips es una pagina dedicada a la difusión de cursos de Seminario Online, ninguno de los contenidos de estos cursos nos pertenece.</p>
           </div>
           <div className='col-md-3 col-lg-3 col-xl-3 mx-auto mt-3'>
             <h5 className='text-uppercase mb-4 font-weight-bold text-primary'>Contacto</h5>
