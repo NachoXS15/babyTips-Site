@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css"
+import "../styles/App.css"
 export default function Timer() {
     return (
         <div className="p-3 bg1 bg-primary">

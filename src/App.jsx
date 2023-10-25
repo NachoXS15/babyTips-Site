@@ -1,11 +1,12 @@
 import { React, useState } from "react";
-import "./App.css";
+import "./styles/App.css";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Timer from "./components/Timer";
 import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Product from "./components/Product";
+import Modules from "./components/modules/Modules";
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Product />
       <Info />
+      <Modules />
       <Footer />
     </div>
   )
