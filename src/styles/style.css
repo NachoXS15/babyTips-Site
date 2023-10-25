@@ -32,7 +32,7 @@
   --bs-primary: #5f9595;
   --bs-secondary: #d8dfdf;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: rgb(64, 203, 26);
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
