@@ -2,11 +2,6 @@ import { React, useState } from "react";
 import BabyTipsLogo from "../assets/logos/babytips-logo.png";
 
 export default function Header() {
-    const [headerOpen, setHeaderOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setHeaderOpen(true);
-    };
     return (
         <nav className="navbar navbar-expand-lg bg2">
             <div className="container">
@@ -25,26 +20,25 @@ export default function Header() {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <div
+                    className="collapse navbar-collapse"
+                    id="navbarTogglerDemo02"
+                >
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                         <li className="nav-item">
-                            <a
-                                className="nav-link"
-                                
-                                href="#"
-                            >
-                                Home
-                            </a>
+                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
+                                ¿Qué ofrecemos?
+                            </button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Link
-                            </a>
+                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
+                                ¿Qué aprenderas?
+                            </button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Disabled
-                            </a>
+                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
+                                ¿Cómo conseguirlo?
+                            </button>
                         </li>
                     </ul>
                 </div>
