@@ -1,48 +1,25 @@
 import { React, useState } from "react";
+import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import BabyTipsLogo from "../assets/logos/babytips-logo.png";
 
 export default function Header() {
     return (
-        <nav className="navbar navbar-expand-lg bg2">
-            <div className="container">
-                <div>
-                    <img src={BabyTipsLogo} width={80} />
-                    <h3 className="d-inline">Baby Tips</h3>
-                </div>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    className="collapse navbar-collapse"
-                    id="navbarTogglerDemo02"
-                >
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-                        <li className="nav-item">
-                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
-                                ¿Qué ofrecemos?
-                            </button>
-                        </li>
-                        <li className="nav-item">
-                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
-                                ¿Qué aprenderas?
-                            </button>
-                        </li>
-                        <li className="nav-item">
-                            <button className="nav-link" href="#" style={{fontSize: '1.3em'}}>
-                                ¿Cómo conseguirlo?
-                            </button>
-                        </li>
-                    </ul>
-                </div>
+        <Navbar expand="lg" className="bg-body-tertiary">
+            <Container>
+            <div className="d-flex align-items-center">
+                <img src={BabyTipsLogo} width={80} />
+                <h3 className="d-inline">Baby Tips</h3>
             </div>
-        </nav>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#home">¿Qué ofrecemos?</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#link">¿Qué aprenderas?</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#">¿Cómo conseguirlo?</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
+
 }

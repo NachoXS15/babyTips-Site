@@ -20,7 +20,7 @@ export default function Info() {
             <hr className="m-4" />
             <div className="row text-center text-md-start">
                 <div className="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 p-4 d-flex align-items-center">
-                    <p style={{fontSize: '1.2em'}}>Aprenderás los conceptos de nutrición para proporcionar alimentos saludables a tu bebé y garantizar que coma adecuadamente, mientras le enseñas a disfrutar de la comida de forma autónoma, promoviendo una relación positiva con la alimentación a lo largo de su vida.</p>
+                    <p style={{fontSize: '1.2em'}}>Aprenderás cómo reaccionar ante los principales problemas que se presentan durante la introducción de alimentos sólidos, como el atoramiento, las reacciones alérgicas y la falta de apetito. </p>
                 </div>
 
                 <div className="col-md-6 col-lg-6 col-xl-6  mx-auto mt-3">
@@ -29,6 +29,8 @@ export default function Info() {
                     </div>
                 </div>
             </div>
+            <hr className="m-4" />
+
             <div className="row text-center text-md-start">
                 <div className="col-md-6 col-lg-6 col-xl-6  mx-auto mt-3">
                     <div>
