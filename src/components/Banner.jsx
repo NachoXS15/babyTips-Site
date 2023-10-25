@@ -3,7 +3,7 @@ import { Carousel } from "react-bootstrap";
 import "../styles/App.css";
 export default function Banner() {
     return (
-        <Carousel>
+        <Carousel interval={2500}>
             <Carousel.Item id="slider1">
                 <div
                     id="overlay"
@@ -53,7 +53,7 @@ export default function Banner() {
                                 fontSize: "3.5em",
                             }}
                         >
-                            ¿Querés aprender a alimentar a tu bebé?
+                            ¿Querés aprender a cocinar una <br></br> gran variedad de platillos?
                         </h1>
                     </div>
                 </div>

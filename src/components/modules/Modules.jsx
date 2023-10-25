@@ -3,41 +3,6 @@ import { Container, Row, Card } from "react-bootstrap";
 
 import Module from "./Module";
 
-const modules = [
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-        url: "../../assets/bg/bebe1.jpg"
-    },
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-        url: "../../assets/bg/bebe2.jpg"
-    },
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-    },
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-    },
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-    },
-    {
-        id: 1,
-        title: "Modulo 1",
-        desc: "Aprenderás a cocinar",
-    },
-];
-
 export default function Modules() {
     return (
         <>
@@ -48,20 +13,7 @@ export default function Modules() {
                 <hr className="m-4" />
                 <Container className=" h-100">
                     <Row className="mt-4 mb-4">
-                        {modules.map((card) => {
-                            return (
-                                <div
-                                    className="col-12 col-md-12 col-lg-4"
-                                    key={card.id}
-                                >
-                                    <Module
-                                        title={card.title}
-                                        desc={card.desc}
-                                        url={card.url}
-                                    />
-                                </div>
-                            );
-                        })}
+                        <Module />
                     </Row>
                 </Container>
             </Container>
