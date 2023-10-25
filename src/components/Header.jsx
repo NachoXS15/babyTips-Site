@@ -4,7 +4,7 @@ import BabyTipsLogo from "../assets/logos/babytips-logo.png";
 
 export default function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-secondary">
             <Container>
             <div className="d-flex align-items-center">
                 <img src={BabyTipsLogo} width={80} />
