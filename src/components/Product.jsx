@@ -25,7 +25,7 @@ export default function Product() {
                     target="_blank"
                     className="w-100 text-light"
                 >
-                    Comprar Producto
+                    Compra este producto a AR$19.162 <span className="text-secondary" style={{textDecoration: 'line-through'}}>($48.524)</span>
                 </Button>
             </div>
         </div>

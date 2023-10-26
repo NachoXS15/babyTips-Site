@@ -1,8 +1,6 @@
 import React from "react";
-import bg2 from "../assets/bg/bg2.jpg";
 import plato from "../assets/bg/plato.jpg";
 import bg3 from "../assets/bg/bg5.jpg";
-import bg4 from "../assets/bg/bg6.jpg";
 import bg7 from "../assets/bg/bg7.jpg";
 export default function Info() {
     return (

@@ -15,7 +15,7 @@ export default function Header() {
                     <Nav className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                         <Nav.Link style={{fontSize: '1.3em'}} href="#guia">¿Qué ofrecemos?</Nav.Link>
                         <Nav.Link style={{fontSize: '1.3em'}} href="#info">¿De qué trata?</Nav.Link>
-                        <Nav.Link style={{fontSize: '1.3em'}} href="#modulos">¿Qué aprenderas</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#modulos">¿Qué aprenderas?</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -13,8 +13,8 @@ export default function Banner() {
                         <h1
                             className="p-4 text-primary text-center"
                             style={{
-                                backgroundColor: "white",
-                                fontSize: "3.5em",
+                                backgroundColor: "rgba(255, 255, 255, 0.7)",
+                                fontSize: "3em",
                             }}
                         >
                             ¿Querés que tu bebé disfrute sus platillos?
@@ -31,8 +31,8 @@ export default function Banner() {
                         <h1
                             className="p-4 text-primary text-center"
                             style={{
-                                backgroundColor: "white",
-                                fontSize: "3.5em",
+                                backgroundColor: "rgba(255, 255, 255, 0.7)",
+                                fontSize: "3em",
                             }}
                         >
                             ¿Querés aprender a alimentar a tu bebé?
@@ -49,8 +49,8 @@ export default function Banner() {
                         <h1
                             className="p-4 text-primary text-center"
                             style={{
-                                backgroundColor: "white",
-                                fontSize: "3.5em",
+                                backgroundColor: "rgba(255, 255, 255, 0.7)",
+                                fontSize: "3em",
                             }}
                         >
                             ¿Querés aprender a cocinar una <br></br> gran variedad de platillos?
