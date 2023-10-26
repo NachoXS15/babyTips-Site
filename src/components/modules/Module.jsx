@@ -9,7 +9,7 @@ export default function Module({ title, desc, url }) {
                 <Card className="bg-secondary text-secondary w-100 mb-4">
                     <Card.Body className="text-dark">
                         <Card.Title className="text-decoration-underline">
-                            Bienvenida
+                            Modulo 1:
                         </Card.Title>
                         <Card.Text className="text-start">
                             <ul style={{listStyle: 'none', paddingLeft: '0'}}>
@@ -103,7 +103,22 @@ export default function Module({ title, desc, url }) {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-            
+                <Card className="bg-secondary text-secondary w-100 mb-4">
+                    <Card.Body className="text-dark">
+                        <Card.Title className="text-decoration-underline">
+                            Bonos:
+                        </Card.Title>
+                        <Card.Text className="text-start">
+                            <ul style={{listStyle: 'none', paddingLeft: '0'}}>
+                                <li>Video 1 - Transición al Método en 3 sencillos pasos</li>
+                                <li>Video 2 - ¿Cómo elijo una silla de comer para mi bebé?.</li>
+                                <li>Video 3 - Utensilios de cocina top 10.</li>
+                                <li>Video 4 - ¿Cómo elegir platos y vasos?.</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <hr className="mt-4" />
         </>
     );
 }

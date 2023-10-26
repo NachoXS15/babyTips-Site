@@ -17,7 +17,7 @@ export default function Banner() {
                                 fontSize: "3.5em",
                             }}
                         >
-                            ¿Querés que tu bebé aprenda a comer solo?
+                            ¿Querés que tu bebé disfrute sus platillos?
                         </h1>
                     </div>
                 </div>

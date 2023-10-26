@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Product from "./components/Product";
 import Modules from "./components/modules/Modules";
-
+import Degree from "./components/Degree";
 function App() {
   return(
     <div>
@@ -17,6 +17,7 @@ function App() {
       <Product />
       <Info />
       <Modules />
+      <Degree />
       <Footer />
     </div>
   )

@@ -13,9 +13,9 @@ export default function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-                        <Nav.Link style={{fontSize: '1.3em'}} href="#home">¿Qué ofrecemos?</Nav.Link>
-                        <Nav.Link style={{fontSize: '1.3em'}} href="#link">¿Qué aprenderas?</Nav.Link>
-                        <Nav.Link style={{fontSize: '1.3em'}} href="#">¿Cómo conseguirlo?</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#guia">¿Qué ofrecemos?</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#info">¿De qué trata?</Nav.Link>
+                        <Nav.Link style={{fontSize: '1.3em'}} href="#modulos">¿Qué aprenderas</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

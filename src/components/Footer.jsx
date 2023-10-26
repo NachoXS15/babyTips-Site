@@ -10,11 +10,12 @@ export default function Footer() {
             <hr className='mb-4' />
             <p className='text-light'>Baby Tips es una pagina dedicada a la difusión de cursos de Seminario Online, ninguno de los contenidos de estos cursos nos pertenece.</p>
           </div>
-          <div className='col-md-3 col-lg-3 col-xl-3 mx-auto mt-3'>
-            <h5 className='text-uppercase mb-4 font-weight-bold text-primary'>Contacto</h5>
-             <p><a href="#" className='text-light'>Instagram</a></p>
-             <p><a href="#" className='text-light'>Facebook</a></p>
-             <p><a href="#" className='text-light'>Correo electronico</a></p>
+          <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mt-3'>
+            <h5 className='text-uppercase mb-4 font-weight-bold text-light'>Contacto</h5>
+            <hr className='mb-4' />
+             <p><a target="_blank" href="https://www.instagram.com/baby.tips_ok/" className='text-light'>Instagram</a></p>
+             <p><a target="_blank" href="https://www.facebook.com/profile.php?id=61552697488032&mibextid=ZbWKwL" className='text-light'>Facebook</a></p>
+             <p><a target="_blank" href="mailto:conectandoaprendizaje73@gmail.com" className='text-light'>Correo electronico</a></p>
           </div>
         </div>
       </div>
