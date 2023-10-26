@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import bebe1 from "../../assets/bg/bebe1.jpg";
 
 export default function Module({ title, desc, url }) {
     return (
