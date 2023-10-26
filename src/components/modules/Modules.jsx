@@ -6,7 +6,7 @@ import Module from "./Module";
 export default function Modules() {
     return (
         <>
-            <Container className="w-100">
+            <Container className="w-100" id="modulos">
                 <h2 className="text-center text-primary mt-5">
                     ¿Qué vas a aprender?
                 </h2>

@@ -118,7 +118,7 @@ export default function Module({ title, desc, url }) {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-            
+                <hr className="mt-4" />
         </>
     );
 }

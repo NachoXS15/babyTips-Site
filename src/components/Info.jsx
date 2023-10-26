@@ -6,7 +6,7 @@ import bg4 from "../assets/bg/bg6.jpg";
 import bg7 from "../assets/bg/bg7.jpg";
 export default function Info() {
     return (
-        <section className="container text-md-start mt-4 mb-4">
+        <section className="container text-md-start mt-4 mb-4" id="info">
             <div className="row text-center text-md-start">
                 <h2 className="text-center text-primary font-weight-bold mt-3 mb-3">
                     ¿Qué aprenderás en este curso?

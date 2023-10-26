@@ -3,7 +3,7 @@ import Guia from "../assets/bg/guia.jpg";
 import { Button } from "react-bootstrap";
 export default function Product() {
     return (
-        <div className="container text-md-start">
+        <div className="container text-md-start" id="guia">
             <div className="col-md-6 col-lg-6 col-xl-6  mx-auto mt-5">
                 <h2
                     className="text-center text-primary mt-2"
