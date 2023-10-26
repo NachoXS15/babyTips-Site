@@ -1,9 +1,9 @@
 import React from "react";
 import bg2 from "../assets/bg/bg2.jpg";
 import plato from "../assets/bg/plato.jpg";
-import bg3 from "../assets/bg/bg5.jpg"
-import bg4 from "../assets/bg/bg6.jpg"
-import bg7 from "../assets/bg/bg7.jpg"
+import bg3 from "../assets/bg/bg5.jpg";
+import bg4 from "../assets/bg/bg6.jpg";
+import bg7 from "../assets/bg/bg7.jpg";
 export default function Info() {
     return (
         <section className="container text-md-start mt-4 mb-4">
@@ -19,11 +19,9 @@ export default function Info() {
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 p-4 d-flex align-items-center">
                     <p style={{ fontSize: "1.2em" }}>
-                        Aprenderás los conceptos de nutrición para proporcionar
-                        alimentos saludables a tu bebé y garantizar que coma
-                        adecuadamente, mientras le enseñas a disfrutar de la
-                        comida de forma autónoma, promoviendo una relación
-                        positiva con la alimentación a lo largo de su vida.
+                        Lograras que tu bebé aprenda a comer solo y de manera
+                        divertida, y asi desarrollar una relación saludable con
+                        la comida a lo largo de su vida.
                     </p>
                 </div>
             </div>
@@ -31,10 +29,11 @@ export default function Info() {
             <div className="row text-center text-md-start">
                 <div className="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 p-4 d-flex align-items-center">
                     <p style={{ fontSize: "1.2em" }}>
-                        Aprenderás cómo reaccionar ante los principales
-                        problemas que se presentan durante la introducción de
-                        alimentos sólidos, como el atoramiento, las reacciones
-                        alérgicas y la falta de apetito.{" "}
+                        Te guiaremos a través de las dos fases claves de la
+                        introducción de alimentos: <strong>Papillas</strong>, y
+                        luego, <strong>Alimentos Solidos</strong>; como así
+                        tambien los problemas que surgan de atoramiento,
+                        reacciones alergicas y falta de apetito.
                     </p>
                 </div>
 
@@ -55,11 +54,10 @@ export default function Info() {
 
                 <div className="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 p-4 d-flex align-items-center">
                     <p style={{ fontSize: "1.2em" }}>
-                        Aprenderás los conceptos de nutrición para proporcionar
-                        alimentos saludables a tu bebé y garantizar que coma
-                        adecuadamente, mientras le enseñas a disfrutar de la
-                        comida de forma autónoma, promoviendo una relación
-                        positiva con la alimentación a lo largo de su vida.
+                        Aprenderás a cocinar platillos nutritivos y fáciles, que
+                        podrás ofrecer a tu bebé y a toda la familia, sin pasar
+                        horas en la cocina ni gastar una fortuna en ingredientes
+                        o alimentos especiales.
                     </p>
                 </div>
             </div>
