@@ -1,6 +1,7 @@
 import React from "react";
 import Guia from "../assets/bg/guia.jpg";
 import { Button } from "react-bootstrap";
+import "../styles/style.css"
 export default function Product() {
     return (
         <div className="container text-md-start" id="guia">
@@ -18,14 +19,19 @@ export default function Product() {
                     lograr que coma solo y variado, y todo ello sin pasar horas
                     en la cocina?
                 </p>
+                <div className="d-flex justify-content-center mb-3 text-primary" style={{gap:'2em'}}>
+                    <h1 className="text-center " style={{fontSize: '3em', marginLeft: '2.5em'}}>$19.162</h1>
+                    <h3 style={{textDecoration: 'line-through'}} className="text-danger">$49.219</h3>
+                </div>
                 <Button
-                    variant="primary"
+                   
                     size="lg"
                     href="https://go.hotmart.com/A87250455A?ap=fd02"
                     target="_blank"
-                    className="w-100 text-light"
+                    className="w-100 text-light p-4"
+                    style={{background: '#198754', fontSize: '1.6em'}}
                 >
-                    Compra este producto a AR$19.162 <span className="text-secondary" style={{textDecoration: 'line-through'}}>($48.524)</span>
+                    Comprar ahora
                 </Button>
             </div>
         </div>
