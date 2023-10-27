@@ -9,7 +9,7 @@ export default function Degree() {
             ¡Compra este curso y accederas al certificado!
         </h2>
         <div className='d-flex justify-content-around'>
-            <img src={certificado} style={{width: '110%'}} alt="" />
+            <img src={certificado} style={{width: '90%'}} alt="" />
         </div>
         <Button
                     variant="primary"
