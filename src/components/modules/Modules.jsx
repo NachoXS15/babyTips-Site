@@ -6,8 +6,8 @@ import Module from "./Module";
 export default function Modules() {
     return (
         <>
-            <Container className="w-100" id="modulos">
-                <h2 className="text-center text-primary mt-5">
+            <Container className="w-75" id="modulos">
+                <h2 className="text-center text-primary mt-5" style={{fontWeight: 700}}>
                     ¿Qué vas a aprender?
                 </h2>
                 <hr className="m-4" />

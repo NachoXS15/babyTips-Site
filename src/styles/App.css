@@ -1,11 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif
+}
+
+@media screen and (min-width: 500px) {
+    #info {
+        width: 80%;
+    }
 }
 
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
+    
+}
+
+body{
+    background-color: #e6e9e5;
+}
+
+h1, h2, h3{
+    font-weight: 500;
 }
 
 :root{
@@ -17,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 #slider1{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg4.jpg");
+    background-image: url("../assets/bg/bg8.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -25,7 +43,7 @@ h1, h2, h3, h4, h5, h6{
 #slider2{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg1.jpg");
+    background-image: url("../assets/bg/bg9.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -33,7 +51,7 @@ h1, h2, h3, h4, h5, h6{
 #slider3{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg3.jpg");
+    background-image: url("../assets/bg/bg10.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -62,4 +80,8 @@ h1, h2, h3, h4, h5, h6{
 
 .icons{
     fill: #fff
+}
+
+#info{
+    width: 60%;
 }
