@@ -5,7 +5,7 @@ export default function Module({ title, desc, url }) {
     return (
         <>
             <Accordion>
-                <Accordion.Item eventKey="0" className="bg-primary">
+                <Accordion.Item eventKey="0">
                     <Accordion.Header>Modulo 1:</Accordion.Header>
                     <Accordion.Body>
                         <ul style={{ listStyle: "none", paddingLeft: "0" }}>
@@ -104,6 +104,8 @@ export default function Module({ title, desc, url }) {
                             <li>Video 4 - ¿Cómo elegir platos y vasos?.</li>
                             <br />
                             <li>Al unirte a nuestro curso, tendrás acceso a una comunidad de padres en la misma situación. Comparte tus experiencias, obtén consejos y apoyo de otros padres que están pasando por la misma etapa.</li>
+                            <br />
+                            <li>Accederás al certificado avalado por Hotmart y Seminarios Online.</li>
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>
