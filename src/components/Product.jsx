@@ -1,5 +1,5 @@
 import React from "react";
-import videoBG from '../assets/bg/video.mp4'
+import videoBG from '../assets/bg/video1.mp4'
 import Guia from "../assets/bg/guia.jpg";
 import { Button } from "react-bootstrap";
 import "../styles/style.css"
@@ -13,14 +13,8 @@ export default function Product() {
                 >
                     Guia para Alimentación de bebes
                 </h2>
-                <video src={videoBG} autoPlay controls className="d-block w-100 mt-4" alt="" />
-                <p className="text-center mt-4" style={{ fontSize: "1.2em" }}>
-                    ¿Quieres saber exactamente cómo alimentar a tus hijos, con
-                    los alimentos más nutrivitos, evitar que rechace la comida,
-                    lograr que coma solo y variado, y todo ello sin pasar horas
-                    en la cocina?
-                </p>
-                <div className="d-flex flex-column align-items-center mb-4">
+                <video src={videoBG} autoPlay controls className="d-block mt-4" style={{width: '110%', margin: '0 auto'}} alt="" />
+                <div className="d-flex flex-column align-items-center mt-4 mb-4">
                     <h1 className="text-center text-primary" style={{fontSize: '2.6em'}}>USD$ 49.99</h1>
                     <span>(El precio se regionalizará al momento de compra)</span>
                 </div>

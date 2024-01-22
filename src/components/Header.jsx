@@ -6,10 +6,10 @@ export default function Header() {
     return (
         <Navbar expand="lg" className="bg-secondary">
             <Container>
-            <div className="d-flex align-items-center">
-                <img src={BabyTipsLogo} width={80} />
-                <h3 className="d-inline">Baby Tips</h3>
-            </div>
+                <div className="d-flex align-items-center">
+                    <img src={BabyTipsLogo} width={80} />
+                    <h3 className="d-inline">Baby Tips</h3>
+                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
