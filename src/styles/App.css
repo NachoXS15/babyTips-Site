@@ -1,11 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif
+}
+
+@media screen and (max-width: 500px) {
+    #info {
+        width: 80%;
+    }
+
+    #babysTest{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .babyVideo{
+        width: 100% !important;
+    }
 }
 
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
+    
+}
+
+body{
+    background-color: #e6e9e5;
+}
+
+h1, h2, h3{
+    font-weight: 500;
 }
 
 :root{
@@ -17,7 +44,7 @@ h1, h2, h3, h4, h5, h6{
 #slider1{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg4.jpg");
+    background-image: url("../assets/bg/bg8.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -25,7 +52,7 @@ h1, h2, h3, h4, h5, h6{
 #slider2{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg1.jpg");
+    background-image: url("../assets/bg/bg9.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -33,7 +60,7 @@ h1, h2, h3, h4, h5, h6{
 #slider3{
     width: 100%;
     height: 600px;
-    background-image: url("../assets/bg/bg3.jpg");
+    background-image: url("../assets/bg/bg10.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -62,4 +89,33 @@ h1, h2, h3, h4, h5, h6{
 
 .icons{
     fill: #fff
+}
+
+#info{
+    width: 60%;
+}
+
+#profile{
+    background-image: url(../assets/bg/profile.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#babysTest{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.babyVideo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: 33%;
+    height: 90%;
 }

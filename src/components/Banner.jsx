@@ -17,7 +17,7 @@ export default function Banner() {
                                 fontSize: "3em",
                             }}
                         >
-                            ¿Querés que tu bebé disfrute sus platillos?
+                            Con nuestro metodo de auto-aprendizaje
                         </h1>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function Banner() {
                                 fontSize: "3em",
                             }}
                         >
-                            ¿Querés aprender a alimentar a tu bebé?
+                            Y nuestro metodo de auto-regulación
                         </h1>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Banner() {
                                 fontSize: "3em",
                             }}
                         >
-                            ¿Querés aprender a cocinar una <br></br> gran variedad de platillos?
+                            Tu bebé comerá solo antes de los 12 meses
                         </h1>
                     </div>
                 </div>
