@@ -17,7 +17,7 @@ export default function Banner() {
                                 fontSize: "3em",
                             }}
                         >
-                            Con nuestro metodo de auto-aprendizaje
+                            Con nuestro método de auto-aprendizaje
                         </h1>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function Banner() {
                                 fontSize: "3em",
                             }}
                         >
-                            Y nuestro metodo de auto-regulación
+                            Y nuestro método de auto-regulación
                         </h1>
                     </div>
                 </div>

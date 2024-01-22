@@ -4,7 +4,7 @@ import { Container, Button } from 'react-bootstrap'
 function Bio() {
     return (
         <>
-            <Container className='mt-4'>
+            <Container className='mt-4' id='biografia'>
                 <h2 className='text-center text-primary' style={{ fontWeight: 700 }}>Biografía</h2>
                 <hr />
                 <div className='container d-flex justify-content-between mt-4' style={{ width: '80%', flexWrap: 'wrap', gap: '1em' }}>
