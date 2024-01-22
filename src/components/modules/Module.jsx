@@ -102,7 +102,8 @@ export default function Module({ title, desc, url }) {
                             </li>
                             <li>Video 3 - Utensilios de cocina top 10.</li>
                             <li>Video 4 - ¿Cómo elegir platos y vasos?.</li>
-                            <li></li>
+                            <br />
+                            <li>Al unirte a nuestro curso, tendrás acceso a una comunidad de padres en la misma situación. Comparte tus experiencias, obtén consejos y apoyo de otros padres que están pasando por la misma etapa.</li>
                         </ul>
                     </Accordion.Body>
                 </Accordion.Item>

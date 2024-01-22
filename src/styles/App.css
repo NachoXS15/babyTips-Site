@@ -7,9 +7,18 @@
     font-family: 'Cabin', sans-serif
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
     #info {
         width: 80%;
+    }
+
+    #babysTest{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .babyVideo{
+        width: 100% !important;
     }
 }
 
@@ -93,4 +102,20 @@ h1, h2, h3{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+}
+
+#babysTest{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.babyVideo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: 33%;
+    height: 90%;
 }

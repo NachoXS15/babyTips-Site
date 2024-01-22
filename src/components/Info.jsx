@@ -53,7 +53,7 @@ export default function Info() {
 
                 <div className="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 p-4 d-flex align-items-center">
                     <p style={{ fontSize: "1.2em" }}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci accusantium natus perferendis vero! Exercitationem, placeat quidem odio repudiandae voluptates, eaque quaerat quis illo deleniti assumenda voluptate adipisci, sit recusandae!
+                        Aprenderás a cocinar platillos nutritivos y fáciles, que podrás ofrecer a tu bebé y a toda la familia, sin pasar horas en la cocina ni gastar una fortuna en ingredientes o alimentos especiales.
                     </p>
                 </div>
             </div>
