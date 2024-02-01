@@ -23,7 +23,7 @@ export default function Product() {
                     size="lg"
                     href="https://go.hotmart.com/A87250455A?ap=fd02"
                     target="_blank"
-                    className="w-100 text-light p-4"
+                    className="w-100 text-light p-3"
                     style={{ background: '#198754', fontSize: '1.6em', display: 'flex', justifyContent: 'center', gap: '0.5em' }}
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-cart-check" viewBox="0 0 16 16">
