@@ -5,7 +5,7 @@ import bg7 from "../assets/bg/bg7.jpg";
 import bg11 from "../assets/bg/bg11.jpg"
 export default function Info() {
     return (
-        <section className="container text-md-start mt-4 mb-4" id="info">
+        <section className=" mt-4 mb-4" style={{margin: '0 auto'}} id="info">
             <div className="row text-center text-md-start">
                 <h2 className="text-center text-primary mt-3 mb-3" style={{fontWeight: 700}}>
                     ¿Qué aprenderás en este curso?

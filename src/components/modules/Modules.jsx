@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Card } from "react-bootstrap";
+import '../../styles/App.css'
 
 import Module from "./Module";
 
 export default function Modules() {
     return (
         <>
-            <Container className="w-75" id="modulos">
+            <Container  id="modulos">
                 <h2 className="text-center text-primary mt-5" style={{fontWeight: 700}}>
                     ¿Qué vas a aprender?
                 </h2>

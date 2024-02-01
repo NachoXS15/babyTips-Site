@@ -7,20 +7,6 @@
     font-family: 'Cabin', sans-serif
 }
 
-@media screen and (max-width: 500px) {
-    #info {
-        width: 80%;
-    }
-
-    #babysTest{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .babyVideo{
-        width: 100% !important;
-    }
-}
 
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
@@ -95,6 +81,10 @@ h1, h2, h3{
     width: 60%;
 }
 
+#modulos{
+    width: 75%;
+}
+
 #profile{
     background-image: url(../assets/bg/profile.png);
     width: 200px;
@@ -118,4 +108,22 @@ h1, h2, h3{
     margin-top: 1.5em;
     width: 33%;
     height: 90%;
+}
+@media screen and (max-width: 500px) {
+    #info {
+        width: 95%;
+    }
+
+    #babysTest{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .babyVideo{
+        width: 100% !important;
+    }
+
+    #modulos{
+        width: 100%
+    }
 }
