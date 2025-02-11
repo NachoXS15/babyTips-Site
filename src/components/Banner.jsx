@@ -1,9 +1,8 @@
-import React from "react";
 import { Carousel } from "react-bootstrap";
 import "../styles/App.css";
 export default function Banner() {
     return (
-        <Carousel interval={2500}>
+        <Carousel interval={1500}>
             <Carousel.Item id="slider1">
                 <div
                     id="overlay"
